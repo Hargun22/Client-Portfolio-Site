@@ -208,8 +208,9 @@ li {
     color: rgb(255, 255, 255);
     overflow: hidden;
     border-right: 2px solid transparent;
-    animation: typewriter 1.5s steps(44) 500ms 1 normal both,
-    blinkTextCursor 500ms steps(44) 6 normal;
+    /* animation: typewriter 1.5s steps(44) 3s 1 normal both,
+    blinkTextCursor 500ms steps(44) 6 normal; */
+    -webkit-animation: fadeIn ease 2s forwards;
     
     
 }
@@ -597,7 +598,7 @@ li {
         font-size: 4em;
     }
     .contact-text {
-        font-size: 5em;
+        font-size: 4em;
     }
     .centering {
         font-size: 1em;
@@ -625,8 +626,15 @@ li {
         border-right: none;
     }
 
+    .sidebar {
+        padding-left: 0px !important;
+    }
     .nav-link {
         font-size: 0.8em;
+    }
+
+    .content2 {
+        padding-left: 20px !important;
     }
 
     .design-titles-text {
@@ -639,9 +647,24 @@ li {
     .title-design, .title-photography, .title-videography {
         margin-top: -122px;
         min-height: 100vh;
-        background-attachment: fixed;
+    }
+
+    .title-design {
+        background: url("../resources/backgrounds/design-background2 copy.jpg") no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    .title-photography {
+        background: url("../resources/backgrounds/photography-background copy.jpg") no-repeat center;
         background-size: 250vw 100vh;
     }
+    
+    .title-videography {
+        background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../resources/backgrounds/videography-background copy.jpg") no-repeat center;
+        background-size: cover;
+    }
+
 
     .home-container {
         min-height: 50vh;
