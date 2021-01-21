@@ -175,7 +175,6 @@ li {
     background-attachment: fixed;
     height: 100vh;
     margin-top: -82px;
-    
 }
 
 .title-videography {
@@ -595,15 +594,14 @@ li {
         font-size: 2em;
     }
     .title-text {
-        font-size: 5em;
+        font-size: 4em;
     }
     .contact-text {
-        font-size: 5.5em;
+        font-size: 5em;
     }
     .centering {
         font-size: 1em;
     }
-
     .content2 {
         max-width: 80%;
     }
@@ -626,6 +624,14 @@ li {
     .nav {
         border-right: none;
     }
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    .design-titles-text {
+        font-size: 1.5em;
+    }
     .contact-row-text {
         font-size: 1.8em;
     }
@@ -633,6 +639,8 @@ li {
     .title-design, .title-photography, .title-videography {
         margin-top: -122px;
         min-height: 100vh;
+        background-attachment: fixed;
+        background-size: 250vw 100vh;
     }
 
     .home-container {
