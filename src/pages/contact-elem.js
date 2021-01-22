@@ -22,7 +22,7 @@ const ContactElem = (props) => {
         </a>
     } else if (props.data.title === "Resume") {
         rendering = 
-        <a style={styling} href={props.data.link} download="TJ_Resume.pdf">
+        <a style={styling} href={props.data.link} download>
             {sameRender}
         </a>
     } else {
