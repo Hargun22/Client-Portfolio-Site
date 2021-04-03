@@ -670,19 +670,19 @@ li {
     }
 
     .title-design {
-        background: url("../resources/backgrounds/design-background2 copy.jpg") no-repeat center;
-        background-size: cover;
+        background: url("../resources/backgrounds/design-background2.jpg") no-repeat center;        
+        background-size: 300vw 100vh;
         
     }
     
     .title-photography {
-        background: url("../resources/backgrounds/photography-background copy.jpg") no-repeat center;
-        background-size: 245vw 100vh;
+        background: url("../resources/backgrounds/photography-background.jpg") no-repeat center;
+        background-size: 200vw 100vh;
     }
     
     .title-videography {
-        background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../resources/backgrounds/videography-background copy.jpg") no-repeat center;
-        background-size: cover;
+        background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../resources/backgrounds/videography-background.jpg") no-repeat center;
+        background-size: 245vw 100vh;
     }
 
 
