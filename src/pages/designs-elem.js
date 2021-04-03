@@ -15,10 +15,14 @@ const DesignElem = (props) => {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
+  
+  
     return (
+      
         <section id={props.id} className="my-4">
             <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
           <div className="row-design">
+
             <Gallery photos={props.images} margin={10} onClick={openLightbox}/>
             <ModalGateway>
         {viewerIsOpen ? (

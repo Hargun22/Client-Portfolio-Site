@@ -15,6 +15,11 @@
     padding-bottom: 30px;
 }
 
+.pdfView {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .cus-container {
     width: 100%;
   padding-right: 5%;
@@ -115,6 +120,7 @@
     background-color: rgb(212, 212, 212);
     border-radius: 50px;
 } */
+
 
 .arrow-button {
     margin-top: 20px;
@@ -241,13 +247,24 @@ li {
     padding: 0 8px;
   }  
 
+  .row-design2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+  }  
 
-.react-photo-gallery--gallery img {
+  .flex-design {
+    max-width: 33%;
+    padding-top: 15px;
+  }
+
+
+.react-photo-gallery--gallery img, .flex-design img {
     transition: 0.3s;
 }
 
 
-.react-photo-gallery--gallery img:hover {
+.react-photo-gallery--gallery img:hover, .flex-design img:hover {
     transform: scale(1.025);
 }
   
@@ -576,6 +593,9 @@ li {
         padding-bottom: 15px;
     }
 
+    .flex-design {
+        max-width: 50%;
+      }
 }
 
 @media (max-width: 850px) {
@@ -671,7 +691,9 @@ li {
     }
 
 
-
+    .flex-design {
+        max-width: 100%;
+    }
    
 
 }

@@ -83,8 +83,16 @@ import PhotoPers8 from "./resources/Photography/Car Photography/AMG Place.jpg";
 import PhotoPers9 from "./resources/Photography/Car Photography/Church Booti.jpg";
 
 
+import DesignSouladri1 from "./resources/Designs/Souladri/Persia.png";
+import DesignSouladri2 from "./resources/Designs/Souladri/Han Dynasty.png";
+import DesignSouladri3 from "./resources/Designs/Souladri/Desert Dusk.png";
+import DesignSouladri4 from "./resources/Designs/Souladri/Persia - Women Final.jpeg";
+import DesignSouladri5 from "./resources/Designs/Souladri/Han Dynasty Final.jpeg";
+import DesignSouladri6 from "./resources/Designs/Souladri/Dessert Dusk  - Final.jpeg";
 
-
+import DesignUser1 from "./resources/Designs/UserFlow/V2-01.jpeg";
+import DesignUser2 from "./resources/Designs/UserFlow/V2-02.png";
+import DesignUser3 from "./resources/Designs/UserFlow/V2-03.png";
 
 
 
@@ -224,6 +232,8 @@ const PersImages = [
       
 ];
 
+
+
 const designItems = [
   {
       name: "ISNA Canada",
@@ -242,9 +252,18 @@ const designItems = [
       link: "#AlMaghrib"
   },
   {
+    name: "Souladri",
+    link: "#Souladri"
+  },
+  {
+    name: "UserFlow Technology",
+    link: "#UserFlow"
+  },
+  {
       name: "Personal",
       link: "#Personal"
-  }
+  },
+  
 ];
 
 const photoItems = [
@@ -320,6 +339,31 @@ const photoPersImages = [
 
 ];
 
+const souladriImages = [
+  {src: DesignSouladri1,
+    width: 1,
+    height: 1},
+  {src: DesignSouladri2,
+    width: 1,
+    height: 1},
+  {src: DesignSouladri3,
+    width: 1,
+    height: 1},
+  {src: DesignSouladri4,
+    width: 1,
+    height: 1},
+  {src: DesignSouladri5,
+    width: 1,
+    height: 1},
+  {src: DesignSouladri6,
+    width: 1,
+    height: 1}
+];
+
+const userImages = [
+  {src: DesignUser1}, {src: DesignUser2}, {src: DesignUser3}
+];
+
 const videoItems = [
   {
     title: "Youtube Intros & Outros",
@@ -388,7 +432,8 @@ class App extends React.Component {
     </div>
 
     <Route path="/" exact render={() => <Home/>}/>
-    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} AlImages={AlImages} PersImages={PersImages}/>}/>
+    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} 
+                AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/>
     <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} isnaImages={profImages} PersImages={photoPersImages}/>}/>
     <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems}/>}/>
     <Route path="/contact" exact render={() => <Contact/>}/>
