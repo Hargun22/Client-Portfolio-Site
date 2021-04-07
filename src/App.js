@@ -93,7 +93,8 @@ import DesignSouladri6 from "./resources/Designs/Souladri/Dessert Dusk  - Final.
 import DesignUser1 from "./resources/Designs/UserFlow/V2-01.jpeg";
 import DesignUser2 from "./resources/Designs/UserFlow/V2-02.png";
 import DesignUser3 from "./resources/Designs/UserFlow/V2-03.png";
-
+import DesignUser4 from "./resources/Designs/UserFlow/V2-04.jpeg";
+import DesignUser5 from "./resources/Designs/UserFlow/V2-05.png";
 
 
 const isnaImages = [
@@ -361,7 +362,11 @@ const souladriImages = [
 ];
 
 const userImages = [
-  {src: DesignUser1}, {src: DesignUser2}, {src: DesignUser3}
+  {src: DesignUser1}, 
+  {src: DesignUser2}, 
+  {src: DesignUser3}, 
+  {src: DesignUser4},
+  {src: DesignUser5} 
 ];
 
 const videoItems = [
