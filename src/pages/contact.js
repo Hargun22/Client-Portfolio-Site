@@ -35,7 +35,7 @@ const data = [
         text: [
             "Click to download my resume!"
         ],
-        link: "./Resume - Dec 2020.pdf"
+        link: "./Resume - January 2022.pdf"
     }
 
 ];

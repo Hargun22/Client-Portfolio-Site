@@ -81,7 +81,10 @@ import PhotoPers6 from "./resources/Photography/Car Photography/Summer V3 2.jpg"
 import PhotoPers7 from "./resources/Photography/Car Photography/Wallpaper 3.jpg";
 import PhotoPers8 from "./resources/Photography/Car Photography/AMG Place.jpg";
 import PhotoPers9 from "./resources/Photography/Car Photography/Church Booti.jpg";
-
+import PhotoPers10 from "./resources/Photography/Car Photography/1234 Wall.jpg";
+import PhotoPers11 from "./resources/Photography/Car Photography/ING 5.jpg";
+import PhotoPers12 from "./resources/Photography/Car Photography/Port 1.jpg";
+import PhotoPers13 from "./resources/Photography/Car Photography/Smecond 1.jpg";
 
 import DesignSouladri1 from "./resources/Designs/Souladri/Persia.png";
 import DesignSouladri2 from "./resources/Designs/Souladri/Han Dynasty.png";
@@ -337,6 +340,18 @@ const photoPersImages = [
   {src: PhotoPers9,
     width: 27,
     height: 30},
+  {src: PhotoPers10,
+    width: 24,
+    height: 42},
+  {src: PhotoPers11,
+    width: 1,
+    height: 1},
+  {src: PhotoPers12,
+    width: 1,
+    height: 1},
+  {src: PhotoPers13,
+    width: 26,
+    height: 31},
 
 ];
 
@@ -443,7 +458,7 @@ class App extends React.Component {
     <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems}/>}/>
     <Route path="/contact" exact render={() => <Contact/>}/>
     <div className="footer">
-      <h4>Website designed by Hargun Bedi</h4>
+      <h4>Website created by Hargun Bedi</h4>
     </div>
     </Router>
 

@@ -6,16 +6,6 @@ const DesignElem2 = (props) => {
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
   
-    // const openLightbox = useCallback((event, { photo, index }) => {
-    //   setCurrentImage(index);
-    //   setViewerIsOpen(true);
-    // }, []);
-
-    // const openLightBox = (index) => {
-    //     setCurrentImage(index);
-    //     setViewerIsOpen(true);
-    // }
-  
     const closeLightbox = () => {
       setCurrentImage(0);
       setViewerIsOpen(false);

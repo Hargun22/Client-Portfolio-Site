@@ -6,12 +6,21 @@ import HomeElem from "./home-elem"
 const homeWorkData = [
 
         {
+            title: 'Estimating Intern',
+            date: '2021 - Present',
+            name: 'TC Transcontinental',
+            list: [
+                'Created quotes for marketing projects',
+                'Used a scalable pricing system for efficiency',
+                'Explored different materials used in marketing'
+            ]
+        },
+        {
             title: 'Graphic Designer & Video Editor',
             date: '2017 - Present',
             name: 'AlMaghrib Institute',
             list: [
-                'Created posts, videos, flyers, social media content',
-                'Redesigned old course posters',
+                'Created marketing materials such social media posts, videos, flyers.',
                 'Edited videos using Adobe Premiere',
                 'Organized and archived branding assets'
             ]
@@ -58,8 +67,8 @@ const eduData = [
     {
         title: 'Ryerson University',
         list: {
-            name: 'Graphics Communications Management, 3rd Year',
-            year: '2018 - Present, Expected Graduation: 2022'
+            name: 'Graphics Communications Management',
+            year: '2018 - 2022'
         }
     },
     {
@@ -116,8 +125,3 @@ return (
 }
 
 export default Home
-
-{/**style={{ display: (showing ? 'none' : 'block') }}
-onClick={() => this.setState({ showing: !showing })}
-style={{ display: (showing ? 'block' : 'none') }}
-*/} 
