@@ -385,13 +385,13 @@ const userImages = [
 ];
 
 const videoItems = [
-  {
-    title: "Youtube Intros & Outros",
-    data: [
-      "https://www.youtube.com/embed/bh_hTAbdsu8",
-      "https://www.youtube.com/embed/wPVbKxlxtfQ"  
-    ]
-  }, 
+  // {
+  //   title: "Youtube Intros & Outros",
+  //   data: [
+  //     "https://www.youtube.com/embed/bh_hTAbdsu8",
+  //     "https://www.youtube.com/embed/wPVbKxlxtfQ"  
+  //   ]
+  // }, 
   {
     title: "Instagram & Facebook Posts",
     data: [
@@ -412,6 +412,18 @@ const videoItems = [
   
   }
 ];
+
+const jamiVideos = [
+  {
+    title: "Short Stories",
+    data: [
+      "https://www.youtube.com/embed/w1inDKw-R_I",
+      "https://www.youtube.com/embed/6kFDSYQWTH8"
+    ]
+}
+
+
+]
 
 
 class App extends React.Component {
@@ -455,7 +467,7 @@ class App extends React.Component {
     <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} 
                 AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/>
     <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} isnaImages={profImages} PersImages={photoPersImages}/>}/>
-    <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems}/>}/>
+    <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems} jamiVideos={jamiVideos}/>}/>
     <Route path="/contact" exact render={() => <Contact/>}/>
     <div className="footer">
       <h4>Website created by Hargun Bedi</h4>

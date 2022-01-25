@@ -16,7 +16,7 @@ const homeWorkData = [
             ]
         },
         {
-            title: 'Graphic Designer & Video Editor',
+            title: 'Graphic Designer, Video Editor',
             date: '2017 - Present',
             name: 'AlMaghrib Institute',
             list: [
@@ -27,7 +27,7 @@ const homeWorkData = [
         },
 
         {
-            title: 'Social Media Manager',
+            title: 'Social Media Manager, Content Creator',
             date: '2017 - Present',
             name: 'Yasir Qadhi (Public Figure) - USA',
             list: [
@@ -38,7 +38,7 @@ const homeWorkData = [
         },
 
         {
-            title: 'Graphic Designer, Video Producer, and Photographer',
+            title: 'Graphic Designer, Video Producer',
             date: 'July 2020 - August 2020',
             name: 'ISNA Canada - Toronto',
             list: [
@@ -50,7 +50,7 @@ const homeWorkData = [
         },
 
         {
-            title: 'Graphic Designer',
+            title: 'Graphic Designer, Content Creator',
             date: '2018 - 2019',
             name: 'Hunnibi - E-commerce Store',
             list: [

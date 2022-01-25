@@ -239,7 +239,9 @@ li {
 
 }
 
-
+.react-photo-gallery--gallery {
+    width:100%;
+}
 
  .row-design {
     display: flex;
@@ -467,7 +469,7 @@ li {
 }
 
 .footer {
-    height: 6vh;
+    height: 4vh;
     width: 100%;
     background: rgb(221, 221, 221);
     text-align: center;
@@ -476,9 +478,39 @@ li {
 
 .footer h4 {
     position: relative;
-    padding-top: 1.8vh;
+    padding-top: 1.2vh;
     color: rgb(82, 82, 82);
-    font-size: 1em;
+    font-size: 0.7em;
+}
+
+.text-green-border{
+    font-family: 'ZoojaPro';
+    font-size: 6em;
+    color: white;
+    padding-top: 25px;
+}
+
+.border-green {
+    background: rgba(90,179,185,255);
+    border-radius: 5px 5px;
+    
+}
+
+.green-text {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgba(90,179,185,255);
+}
+
+.about-text {
+    font-family: 'ZoojaPro';
+    font-size: 3em;
+    padding-top: 10px;
+    color: white;
+}
+
+.story-text{
+    font-weight: 300;
 }
 
 

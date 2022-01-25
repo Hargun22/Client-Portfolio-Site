@@ -22,7 +22,7 @@ const DesignElem = (props) => {
         <section id={props.id} className="my-4">
             <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
           <div className="row-design">
-
+          
             <Gallery photos={props.images} margin={10} onClick={openLightbox}/>
             <ModalGateway>
         {viewerIsOpen ? (
@@ -37,6 +37,7 @@ const DesignElem = (props) => {
             />
           </Modal>
         ) : null}
+        
       </ModalGateway>
         </div>
     </section>
