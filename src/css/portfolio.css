@@ -1,6 +1,17 @@
+@font-face {
+    font-family: "ZoojaPro"; 
+    src: url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.eot"); 
+    src: url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/d9eab5143efc98cbd074fe4083108c58.svg#ZoojaPro") format("svg"); 
+}
+
 * {
     font-family: 'Roboto';
 }
+
 
 .container-col {
     background-color: rgb(221, 221, 221);
