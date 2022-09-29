@@ -12,7 +12,9 @@ const DesignElem2 = (props) => {
     };
     return(
     <section id={props.id} className="my-4">
+      <div className="container-col" style={{margin: 15, padding: 20}}>
             <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
+            </div>
           <div className="row-design2">
             {props.images.map((img, ind) => {
                 return(

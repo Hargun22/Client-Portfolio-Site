@@ -6,7 +6,7 @@ import HomeElem from "./home-elem"
 const homeWorkData = [
 
         {
-            title: 'Estimating Intern',
+            title: 'Estimater',
             date: '2021 - Present',
             name: 'TC Transcontinental',
             list: [
@@ -96,7 +96,7 @@ return (
     
     <div>
         <div className="home-container" >
-            <div className="container home-container2" data-aos="fade-up" data-aos-easing="ease-in">
+            <div className="container home-container2" data-aos="fade-up" data-aos-easing="ease-in" style={{paddingLeft: "5%", paddingRight: "5%"}}>
                 <div className ="row home-row">
                     <div className="col-7 my-2 home-image">
                         <img className= "image-self" src={Image }/>
@@ -115,7 +115,7 @@ return (
                 </div>
             </div>
         </div>
-        <div id="hide-display" >
+        <div id="hide-display" style={{paddingLeft: "4%", paddingRight: "4%"}}>
             <HomeElem workData={homeWorkData} eduData={eduData}/>
         </div>
         

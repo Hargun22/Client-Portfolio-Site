@@ -20,7 +20,16 @@ const DesignElem = (props) => {
     return (
       
         <section id={props.id} className="my-4">
-            <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
+          {props.name === "Souldari" ?
+          <div className="container-col" style={{margin: 15, padding: 20}}>
+          <h2>{props.name}</h2>
+          </div>
+          : 
+          <div className="container-col" style={{margin: 15, padding: 20}}>
+          <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
+          </div>
+          }
+            
           <div className="row-design">
           
             <Gallery photos={props.images} margin={10} onClick={openLightbox}/>

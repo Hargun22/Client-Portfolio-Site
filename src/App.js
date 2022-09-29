@@ -392,17 +392,17 @@ const videoItems = [
   //     "https://www.youtube.com/embed/wPVbKxlxtfQ"  
   //   ]
   // }, 
-  {
-    title: "Instagram & Facebook Posts",
-    data: [
-      "https://www.youtube.com/embed/Q9DvPxAFUGA",
-      "https://www.youtube.com/embed/zP5gOonWWQQ",
-      "https://www.youtube.com/embed/-0jZTuV3M-E",
-      "https://www.youtube.com/embed/r3BpLU1Kb_A",
-      "https://www.youtube.com/embed/zagMCCUio2Q",
-      "https://www.youtube.com/embed/yOXozKs8EMk"
-    ]
-  },
+  // {
+  //   title: "Instagram & Facebook Posts",
+  //   data: [
+  //     "https://www.youtube.com/embed/Q9DvPxAFUGA",
+  //     "https://www.youtube.com/embed/zP5gOonWWQQ",
+  //     "https://www.youtube.com/embed/-0jZTuV3M-E",
+  //     "https://www.youtube.com/embed/r3BpLU1Kb_A",
+  //     "https://www.youtube.com/embed/zagMCCUio2Q",
+  //     "https://www.youtube.com/embed/yOXozKs8EMk"
+  //   ]
+  // },
   {
     title: "Informative Videos",
     data: [
@@ -415,14 +415,22 @@ const videoItems = [
 
 const jamiVideos = [
   {
-    title: "Short Stories",
+    title: "Short Stories - ISNA Canada",
     data: [
       "https://www.youtube.com/embed/w1inDKw-R_I",
       "https://www.youtube.com/embed/6kFDSYQWTH8"
     ]
 }
+]
 
-
+const ramadanVideos =[
+  {
+    title: "Short Stories - Yasir Qadhi",
+    data: [
+      "https://www.youtube.com/embed/EiCoRwel2sU",
+      "https://www.youtube.com/embed/ifGPTW2kCJA"
+    ]
+  }
 ]
 
 
@@ -467,7 +475,7 @@ class App extends React.Component {
     <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} 
                 AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/>
     <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} isnaImages={profImages} PersImages={photoPersImages}/>}/>
-    <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems} jamiVideos={jamiVideos}/>}/>
+    <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems} jamiVideos={jamiVideos} ramadanVideos={ramadanVideos}/>}/>
     <Route path="/contact" exact render={() => <Contact/>}/>
     <div className="footer">
       <h4>Website created by Hargun Bedi</h4>

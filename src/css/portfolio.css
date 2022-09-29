@@ -157,7 +157,7 @@
 }
 
 .mid-title {
-    font-size: 3.3em;
+    font-size: 3.2em;
     padding-right: 15px;
 }
 
@@ -332,12 +332,49 @@ li {
     font-weight: bold;
     border-radius: 3px;
   }
+  .nav-link-odd {
+    display: inline-block;
+    padding: 6px 16px;
+    line-height: 1.25em;
+    color: rgb(118, 125, 158);
+    font-weight: bold;
+    border-radius: 3px;
+    
+    
+  }
+  .nav-link-even {
+    display: inline-block;
+    padding: 6px 16px;
+    line-height: 1.25em;
+    
+    color: rgb(176, 146, 146);
+    font-weight: bold;
+    border-radius: 3px;
+  }
   
-  .nav-link:hover {
+  .nav-link-odd:hover {
+    text-decoration: none;
+    background-color: rgb(197, 197, 197);
+    color: black;
+    
+  }
+  .nav-link-even:hover {
+    text-decoration: none;
+    background-color: rgb(197, 197, 197);
+    color: black;
+
+  }
+/* 
+  .nav-link-even {
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: rgb(197, 197, 197);
   }
+  .nav-link-odd {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 197, 197);
+  } */
   
   a.nav-item:focus {
     outline: 0;
@@ -501,6 +538,13 @@ li {
     padding-top: 25px;
 }
 
+.mannersText{
+    font-family: 'ZoojaPro';
+    font-size: 4em;
+    color: white;
+    padding-top: 25px;
+}
+
 .border-green {
     background: rgba(90,179,185,255);
     border-radius: 5px 5px;
@@ -515,7 +559,7 @@ li {
 
 .about-text {
     font-family: 'ZoojaPro';
-    font-size: 3em;
+    font-size: 2.8em;
     padding-top: 10px;
     color: white;
 }
@@ -524,7 +568,16 @@ li {
     font-weight: 300;
 }
 
+.border-ramadan{
+    background: #5684ac;
+    border-radius: 5px 5px;
+}
 
+.ramadan-intro-outro-text{
+    color: #5684ac;
+    font-weight: 500;
+    font-size: 1.5em;
+}
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -575,6 +628,9 @@ li {
     }
     .contact-text h3 {
         font-size: 0.9em;
+    }
+    .mannersText{
+        font-size: 3.7em;
     }
 
 }
@@ -639,13 +695,18 @@ li {
     .flex-design {
         max-width: 50%;
       }
-}
-
-@media (max-width: 850px) {
+    .mannersText{
+        font-size: 3.2em;
+    }
     .nav {
         border-right: none;
     }
+
+    .about-text{
+        font-size: 2.5em;
+    }
 }
+
 
 @media (max-width: 764px) {
     .big-title {
@@ -695,6 +756,12 @@ li {
     .nav-link {
         font-size: 0.8em;
     }
+    .nav-link-odd {
+        font-size: 0.8em;
+    }
+    .nav-link-even {
+        font-size: 0.8em;
+    }
 
     .content2 {
         padding-left: 20px !important;
@@ -736,6 +803,10 @@ li {
 
     .flex-design {
         max-width: 100%;
+    }
+
+    .mannersText{
+        font-size: 2.8em;
     }
    
 
