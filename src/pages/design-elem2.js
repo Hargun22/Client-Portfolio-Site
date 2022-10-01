@@ -1,6 +1,7 @@
 import React, { useState, useCallback }  from "react";
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Divider from '@mui/material/Divider';
 
 const DesignElem2 = (props) => {
     const [currentImage, setCurrentImage] = useState(0);
@@ -12,9 +13,12 @@ const DesignElem2 = (props) => {
     };
     return(
     <section id={props.id} className="my-4">
-      <div className="container-col" style={{margin: 15, padding: 20}}>
+      <Divider orientation="vertical" variant="middle" flexItem />
+      <div className="container-col" style={{ padding: 10}}>
+
             <h2 className="design-titles-text"><strong>{props.name} </strong></h2>
-            </div>
+            <Divider variant="middle" style={{marginBottom: 10}}/>
+            
           <div className="row-design2">
             {props.images.map((img, ind) => {
                 return(
@@ -37,6 +41,7 @@ const DesignElem2 = (props) => {
           </Modal>
         ) : null}
       </ModalGateway>
+        </div>
         </div>
     </section>
     );

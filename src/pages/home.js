@@ -6,7 +6,7 @@ import HomeElem from "./home-elem"
 const homeWorkData = [
 
         {
-            title: 'Estimater',
+            title: 'Estimator',
             date: '2021 - Present',
             name: 'TC Transcontinental',
             list: [
@@ -108,7 +108,7 @@ return (
                 </div>
             </div>
 
-            <div className="container arrow-button" data-aos="zoom-in-up">
+            <div className="container arrow-button" data-aos="zoom-in-up" style={{paddingTop: "3%"}}>
                 <h6 className="centering" >Work Experience and Education</h6>
                 <div id="arrow-hover" >
                     <div className="arrow-down"></div>

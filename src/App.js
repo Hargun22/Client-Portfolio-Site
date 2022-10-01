@@ -35,6 +35,9 @@ import DesignYQ6 from "./resources/Designs/YQ/Wisdom.jpg";
 import DesignYQ7 from "./resources/Designs/YQ/Ihsan.jpg";
 import DesignYQ8 from "./resources/Designs/YQ/Righteous Speech.jpg";
 import DesignYQ9 from "./resources/Designs/YQ/Think About Death.jpg";
+import DesignYQ10 from "./resources/Designs/YQ/Akhlaq InfographicArtboard 1.png"
+import DesignYQ11 from "./resources/Designs/YQ/Akhlaq InfographicArtboard 2.png"
+import DesignYQ12 from "./resources/Designs/YQ/Akhlaq InfographicArtboard 3.png"
 
 import DesignHun1 from './resources/Designs/Hunnibi/April-10.png';
 import DesignHun2 from "./resources/Designs/Hunnibi/Feb 4th, 2019Artboard 1.png";
@@ -92,6 +95,7 @@ import DesignSouladri3 from "./resources/Designs/Souladri/Desert Dusk.png";
 import DesignSouladri4 from "./resources/Designs/Souladri/Persia - Women Final.jpeg";
 import DesignSouladri5 from "./resources/Designs/Souladri/Han Dynasty Final.jpeg";
 import DesignSouladri6 from "./resources/Designs/Souladri/Dessert Dusk  - Final.jpeg";
+import DesignSouladri7 from "./resources/Designs/Souladri/Souladri Perfume Bottle Example.jpg"
 
 import DesignUser1 from "./resources/Designs/UserFlow/V2-01.jpeg";
 import DesignUser2 from "./resources/Designs/UserFlow/V2-02.png";
@@ -99,6 +103,19 @@ import DesignUser3 from "./resources/Designs/UserFlow/V2-03.png";
 import DesignUser4 from "./resources/Designs/UserFlow/V2-04.jpeg";
 import DesignUser5 from "./resources/Designs/UserFlow/V2-05.png";
 
+import Deenager1 from "./resources/Photography/Deenagers/Image1.jpg";
+import Deenager2 from "./resources/Photography/Deenagers/Image2.jpg";
+import Deenager3 from "./resources/Photography/Deenagers/Image3.jpg";
+import Deenager4 from "./resources/Photography/Deenagers/Image4.jpg";
+import Deenager5 from "./resources/Photography/Deenagers/Image5.jpg";
+import Deenager6 from "./resources/Photography/Deenagers/Image6.jpg";
+import Deenager7 from "./resources/Photography/Deenagers/Image7.jpg";
+import Deenager8 from "./resources/Photography/Deenagers/Image8.jpg";
+import Deenager9 from "./resources/Photography/Deenagers/Image9.jpg";
+import Deenager10 from "./resources/Photography/Deenagers/Image10.jpg";
+import Deenager11 from "./resources/Photography/Deenagers/Image11.jpg";
+import Deenager12 from "./resources/Photography/Deenagers/Image12.jpg";
+import Deenager13 from "./resources/Photography/Deenagers/Image13.jpg";
 
 const isnaImages = [
     {src: DesignIsna1,
@@ -156,6 +173,15 @@ const YQImages = [
       width: 3,
       height: 2},
   {src: DesignYQ9,
+      width: 1,
+      height: 1},
+  {src: DesignYQ10,
+      width: 1,
+      height: 1},
+  {src: DesignYQ11,
+      width: 1,
+      height: 1},
+  {src: DesignYQ12,
       width: 1,
       height: 1}
 ];
@@ -247,10 +273,7 @@ const designItems = [
       name: "Yasir Qadhi",
       link: "#YQ"
   },
-  {
-      name: "Hunnibi",
-      link: "#Hunnibi"
-  },
+
   {
       name: "AlMaghrib Institute",
       link: "#AlMaghrib"
@@ -267,10 +290,18 @@ const designItems = [
       name: "Personal",
       link: "#Personal"
   },
+  {
+    name: "Hunnibi",
+    link: "#Hunnibi"
+},
   
 ];
 
 const photoItems = [
+  {
+    name: "Deenagers",
+    link: "#Deenagers"
+  },
   {
       name: "Professional",
       link: "#Professional"
@@ -356,6 +387,18 @@ const photoPersImages = [
 ];
 
 const souladriImages = [
+  {src: DesignSouladri7,
+  width: 1,
+height: 1},
+{src: DesignSouladri4,
+  width: 1,
+  height: 1},
+{src: DesignSouladri5,
+  width: 1,
+  height: 1},
+{src: DesignSouladri6,
+  width: 1,
+  height: 1},
   {src: DesignSouladri1,
     width: 1,
     height: 1},
@@ -364,16 +407,8 @@ const souladriImages = [
     height: 1},
   {src: DesignSouladri3,
     width: 1,
-    height: 1},
-  {src: DesignSouladri4,
-    width: 1,
-    height: 1},
-  {src: DesignSouladri5,
-    width: 1,
-    height: 1},
-  {src: DesignSouladri6,
-    width: 1,
     height: 1}
+
 ];
 
 const userImages = [
@@ -382,6 +417,49 @@ const userImages = [
   {src: DesignUser3}, 
   {src: DesignUser4},
   {src: DesignUser5} 
+];
+
+const photoDeenagers = [
+  {src: Deenager1,
+    width: 30,
+    height: 20},
+  {src: Deenager2,
+    width: 45,
+    height: 30},
+  {src: Deenager3,
+    width: 45,
+    height: 30},
+  {src: Deenager4,
+    width: 45,
+    height: 30},
+  {src: Deenager5,
+    width: 45,
+    height: 30},
+  {src: Deenager6,
+    width: 54,
+    height: 30},
+  {src: Deenager7,
+    width: 54,
+    height: 30},
+  {src: Deenager8,
+    width: 54,
+    height: 30},
+  {src: Deenager9,
+    width: 54,
+    height: 30},
+  {src: Deenager10,
+    width: 54,
+    height: 30},
+  {src: Deenager11,
+    width: 54,
+    height: 30},
+  {src: Deenager12,
+    width: 54,
+    height: 30},
+  {src: Deenager13,
+    width: 54,
+    height: 30},
+
 ];
 
 const videoItems = [
@@ -415,7 +493,7 @@ const videoItems = [
 
 const jamiVideos = [
   {
-    title: "Short Stories - ISNA Canada",
+    title: "ISNA Canada",
     data: [
       "https://www.youtube.com/embed/w1inDKw-R_I",
       "https://www.youtube.com/embed/6kFDSYQWTH8"
@@ -425,7 +503,7 @@ const jamiVideos = [
 
 const ramadanVideos =[
   {
-    title: "Short Stories - Yasir Qadhi",
+    title: "Yasir Qadhi",
     data: [
       "https://www.youtube.com/embed/EiCoRwel2sU",
       "https://www.youtube.com/embed/ifGPTW2kCJA"
@@ -472,9 +550,9 @@ class App extends React.Component {
     </div>
 
     <Route path="/" exact render={() => <Home/>}/>
-    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} 
-                AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/>
-    <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} isnaImages={profImages} PersImages={photoPersImages}/>}/>
+    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages}
+                AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/> 
+    <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} deenagerImages={photoDeenagers} isnaImages={profImages} PersImages={photoPersImages}/>}/>
     <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems} jamiVideos={jamiVideos} ramadanVideos={ramadanVideos}/>}/>
     <Route path="/contact" exact render={() => <Contact/>}/>
     <div className="footer">

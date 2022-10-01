@@ -22,6 +22,7 @@ const Photography = (props) => {
                 </nav>
               </div>
               <div id="cont" className="col-10 content2">
+                <DesignElem id={"Deenagers"} name="Deenagers" images={props.deenagerImages}/>
                 <DesignElem id={"Professional"} name="Professional" images={props.isnaImages}/>
                 <DesignElem id={"Personal"} name="Personal" images={props.PersImages}/>
               </div>
