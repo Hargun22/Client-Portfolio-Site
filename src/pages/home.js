@@ -17,7 +17,7 @@ const homeWorkData = [
         },
         {
             title: 'Graphic Designer, Video Editor',
-            date: '2017 - Present',
+            date: '2017 - 2021',
             name: 'AlMaghrib Institute',
             list: [
                 'Created marketing materials such social media posts, videos, flyers.',
@@ -98,7 +98,7 @@ return (
         <div className="home-container" >
             <div className="container home-container2" data-aos="fade-up" data-aos-easing="ease-in" style={{paddingLeft: "5%", paddingRight: "5%"}}>
                 <div className ="row home-row">
-                    <div className="col-7 my-2 home-image">
+                    <div className="col-7 my-2 home-image" style={{padding: "3s%"}}>
                         <img className= "image-self" src={Image }/>
                     </div>
                     <div className="col-5 side-description home-desc">

@@ -31,6 +31,7 @@ const Designs = (props) => {
             <DesignElem id={"ISNA"} name="ISNA Canada" images={props.isnaImages}/>
             <DesignElem id={"YQ"} name="Yasir Qadhi" images={props.yqImages}/>
             <DesignElem id={"AlMaghrib"} name="AlMaghrib Institute" images={props.AlImages}/>
+            <DesignElem id={"DAM"} name="Digital Asset Management Infographic" images={props.designDam}/>
             <DesignElem id={"Souladri"} name="Souladri" images={props.souladriImages}/>
             <DesignElem2 id={"UserFlow"} name="UserFlow Technology" images={props.userImages}/>
             <DesignElem id={"Personal"} name="Personal" images={props.PersImages}/>

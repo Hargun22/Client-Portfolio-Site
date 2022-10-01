@@ -117,6 +117,10 @@ import Deenager11 from "./resources/Photography/Deenagers/Image11.jpg";
 import Deenager12 from "./resources/Photography/Deenagers/Image12.jpg";
 import Deenager13 from "./resources/Photography/Deenagers/Image13.jpg";
 
+import Dam1 from "./resources/Designs/DAM/Image-01.jpg";
+import Dam2 from "./resources/Designs/DAM/Image-02.jpg";
+import Dam3 from "./resources/Designs/DAM/Image-03.jpg";
+
 const isnaImages = [
     {src: DesignIsna1,
         width: 1,
@@ -277,6 +281,10 @@ const designItems = [
   {
       name: "AlMaghrib Institute",
       link: "#AlMaghrib"
+  },
+  {
+    name: "Digital Asset Management Infographic",
+    link: "#DAM"
   },
   {
     name: "Souladri",
@@ -462,6 +470,18 @@ const photoDeenagers = [
 
 ];
 
+const designDam = [
+  {src: Dam1,
+    width: 1,
+  height: 1},
+  {src: Dam2,
+    width: 1,
+    height: 1},
+  {src: Dam3,
+    width: 1,
+    height: 1},
+]
+
 const videoItems = [
   // {
   //   title: "Youtube Intros & Outros",
@@ -550,7 +570,7 @@ class App extends React.Component {
     </div>
 
     <Route path="/" exact render={() => <Home/>}/>
-    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages}
+    <Route path="/designs" exact render={() => <Designs designItems={designItems} classTitle={'title-design'} title={'Designs'} isnaImages={isnaImages} yqImages={YQImages} hunImages={hunImages} designDam={designDam}
                 AlImages={AlImages} PersImages={PersImages} souladriImages={souladriImages} userImages={userImages}/>}/> 
     <Route path="/photography" exact render={() => <Photography designItems={photoItems} classTitle={'title-photography'} title={'Photography'} deenagerImages={photoDeenagers} isnaImages={profImages} PersImages={photoPersImages}/>}/>
     <Route path="/videography" exact render={() => <Videography classTitle={'title-videography'} title={'Videography'} videoItems={videoItems} jamiVideos={jamiVideos} ramadanVideos={ramadanVideos}/>}/>
