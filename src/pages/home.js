@@ -98,7 +98,7 @@ return (
         <div className="home-container" >
             <div className="container home-container2" data-aos="fade-up" data-aos-easing="ease-in" style={{paddingLeft: "5%", paddingRight: "5%"}}>
                 <div className ="row home-row">
-                    <div className="col-7 my-2 home-image" style={{padding: "3s%"}}>
+                    <div className="col-7 my-2 home-image" style={{padding: "3%"}}>
                         <img className= "image-self" src={Image }/>
                     </div>
                     <div className="col-5 side-description home-desc">
